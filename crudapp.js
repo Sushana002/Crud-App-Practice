@@ -22,7 +22,7 @@ class Room {
 //Using API, and accessing their end points by using statics. 
 //Using another method to utilizing all out CRUD Operations (getting the house (getting a specific house, creating a house, updating the house & deleting a house).
  class HouseService {
-    static url = 'https://ancient-taiga-31395.herokuapp.com/api/house'; 
+    static url = 'https://ancient-taiga-31359.herokuapp.com/api/houses'; 
     //Getting all houses. 
     static getAllHouses() {
         return $.get(this.url); 
